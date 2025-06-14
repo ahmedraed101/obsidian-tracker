@@ -1,5 +1,7 @@
 #!/bin/bash
 
+source ~/.keychain/$HOSTNAME-sh
+
 cd "$(dirname "$0")"
 
 echo "Start track of $(pwd) at $(date)"
